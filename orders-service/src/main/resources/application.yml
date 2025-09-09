@@ -1,0 +1,12 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: orders-service
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8081/realms/demo

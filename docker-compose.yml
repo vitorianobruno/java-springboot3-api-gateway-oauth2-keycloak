@@ -6,5 +6,6 @@ services:
     environment:
       - KEYCLOAK_ADMIN=admin
       - KEYCLOAK_ADMIN_PASSWORD=admin
+      - KC_LOG_LEVEL=DEBUG
     ports:
       - "8081:8080"
